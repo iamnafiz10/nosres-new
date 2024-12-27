@@ -9,7 +9,7 @@ function Patner() {
                     <div className="head-wrap text-start">
                         <h1 className="font-semibold text-[24px]">
                               <span className="text-[#3A5F8A]">
-                                Nosres Blends is more than a marketplace—it{`'`}s a community
+                                Nosres Blends is more than a marketplace—it{"'"}s a community
                               </span>
                             <br/>
                             <span className="text-primary">built on trust, quality, and simplicity.</span>
