@@ -1,8 +1,4 @@
 import React from 'react';
-import blogImg1 from "../../../../../public/assets/images/blog1.png";
-import blogImg2 from "../../../../../public/assets/images/blog2.jpg";
-import blogImg3 from "../../../../../public/assets/images/blog3.jpg";
-import LogoImg from "../../../../../public/assets/images/logo.svg";
 import {HiOutlineArrowRightCircle} from "react-icons/hi2";
 import Link from "next/link";
 import Image from "next/image";
@@ -38,7 +34,8 @@ function WorkWith() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
                         <div data-aos="zoom-in" data-aos-duration="1000"
                              className="col hover:-translate-y-2 image-box bg-white shadow rounded-md">
-                            <Image src={blogImg1} className="w-full h-52 rounded-md rounded-b-none" alt="blogImg"/>
+                            <Image src="/assets/images/blog1.png" width={1000} height={500} className="w-full h-52 rounded-md rounded-b-none"
+                                   alt="blogImg"/>
                             <div className="content px-4 py-4">
                                 <h2 className="font-semibold text-[16px]">Choosing The Best Platform</h2>
                                 <p className="mt-2 text-[14px] text-gray-600">
@@ -46,7 +43,8 @@ function WorkWith() {
                                     information online
                                 </p>
                                 <div className="flex items-center gap-3 mt-2">
-                                    <Image src={LogoImg} className="w-7" alt="LogoImg"/>
+                                    <Image src="/assets/images/logo.svg" width={1000} height={500} className="w-7"
+                                           alt="LogoImg"/>
                                     <div className="wrap">
                                         <h4 className="text-[14px] font-semibold">Nosres</h4>
                                         <p className="text-[13px]">09 April 2023</p>
@@ -57,7 +55,8 @@ function WorkWith() {
 
                         <div data-aos="zoom-in" data-aos-duration="1000"
                              className="col hover:-translate-y-2 image-box bg-white shadow rounded-md">
-                            <Image src={blogImg2} className="w-full h-52 rounded-md rounded-b-none" alt="blogImg"/>
+                            <Image src="/assets/images/blog2.jpg" width={1000} height={500}
+                                   className="w-full h-52 rounded-md rounded-b-none" alt="blogImg"/>
                             <div className="content px-4 py-4">
                                 <h2 className="font-semibold text-[16px]">Choosing The Best Platform</h2>
                                 <p className="mt-2 text-[14px] text-gray-600">
@@ -65,7 +64,8 @@ function WorkWith() {
                                     information online
                                 </p>
                                 <div className="flex items-center gap-3 mt-2">
-                                    <Image src={LogoImg} className="w-7" alt="LogoImg"/>
+                                    <Image src="/assets/images/logo.svg" width={1000} height={500} className="w-7"
+                                           alt="LogoImg"/>
                                     <div className="wrap">
                                         <h4 className="text-[14px] font-semibold">Nosres</h4>
                                         <p className="text-[13px]">09 April 2023</p>
@@ -76,7 +76,8 @@ function WorkWith() {
 
                         <div data-aos="zoom-in" data-aos-duration="1000"
                              className="col hover:-translate-y-2 image-box bg-white shadow rounded-md">
-                            <Image src={blogImg3} className="w-full h-52 rounded-md rounded-b-none" alt="blogImg"/>
+                            <Image src="/assets/images/blog3.jpg" width={1000} height={500}
+                                   className="w-full h-52 rounded-md rounded-b-none" alt="blogImg"/>
                             <div className="content px-4 py-4">
                                 <h2 className="font-semibold text-[16px]">Choosing The Best Platform</h2>
                                 <p className="mt-2 text-[14px] text-gray-600">
@@ -84,7 +85,8 @@ function WorkWith() {
                                     information online
                                 </p>
                                 <div className="flex items-center gap-3 mt-2">
-                                    <Image src={LogoImg} className="w-7" alt="LogoImg"/>
+                                    <Image src="/assets/images/logo.svg" width={1000} height={500} className="w-7"
+                                           alt="LogoImg"/>
                                     <div className="wrap">
                                         <h4 className="text-[14px] font-semibold">Nosres</h4>
                                         <p className="text-[13px]">09 April 2023</p>

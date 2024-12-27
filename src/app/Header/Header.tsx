@@ -5,24 +5,6 @@ import {IoIosArrowDown} from "react-icons/io";
 import {HiOutlineBars3} from "react-icons/hi2";
 import {IoSearchOutline} from "react-icons/io5";
 import {CiClock2} from "react-icons/ci";
-import WhoImg1 from '../../../public/assets/images/m1.svg';
-import WhoImg2 from '../../../public/assets/images/m2.svg';
-import WhoImg3 from '../../../public/assets/images/m3.svg';
-import WhoImg4 from '../../../public/assets/images/m4.svg';
-import WhoImg5 from '../../../public/assets/images/m5.svg';
-import WhoImg6 from '../../../public/assets/images/m6.svg';
-import UbImg1 from '../../../public/assets/images/ub1.svg';
-import UbImg2 from '../../../public/assets/images/ub2.svg';
-import UbImg3 from '../../../public/assets/images/ub3.svg';
-import UbImg4 from '../../../public/assets/images/ub4.svg';
-import RsImg1 from '../../../public/assets/images/rs1.svg';
-import RsImg2 from '../../../public/assets/images/rs2.svg';
-import RsImg3 from '../../../public/assets/images/rs3.svg';
-import RsImg4 from '../../../public/assets/images/rs4.svg';
-import RsImg5 from '../../../public/assets/images/rs5.svg';
-import RsImg6 from '../../../public/assets/images/rs6.svg';
-import LogoImg from '../../../public/assets/images/logo.svg';
-
 import {Modal} from 'flowbite-react';
 import {FaArrowRightLong} from "react-icons/fa6";
 import {RxCross1} from "react-icons/rx";
@@ -223,7 +205,8 @@ function Header() {
                     <div className="container flex items-center justify-between">
                         <div className="logo">
                             <Link href='/' className="flex items-center gap-2">
-                                <Image src={LogoImg} className="h-10 w-7" alt="LogoImg"/>
+                                <Image width={1000} height={500} src="/assets/images/logo.svg" className="h-10 w-7"
+                                       alt="LogoImg"/>
                                 <span className="font-[500] text-xl">nosres</span>
                             </Link>
                         </div>
@@ -330,7 +313,8 @@ function Header() {
                                             <Link href='/about'
                                                   className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={WhoImg1} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/m1.svg"
+                                                           className="w-8" alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             About Nosres
@@ -345,7 +329,8 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={WhoImg2} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/m2.svg"
+                                                           className="w-8" alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Newsroom
@@ -361,7 +346,8 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={WhoImg3} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/m3.svg"
+                                                           className="w-8" alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Careers
@@ -376,7 +362,8 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={WhoImg4} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/m4.svg"
+                                                           className="w-8" alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Investors
@@ -391,7 +378,8 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={WhoImg5} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/m5.svg"
+                                                           className="w-8" alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Brand Resources
@@ -406,7 +394,8 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={WhoImg6} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/m6.svg"
+                                                           className="w-8" alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Contact Us
@@ -438,7 +427,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={UbImg1} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/ub1.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Marketplace
@@ -454,7 +445,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={UbImg2} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/ub2.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Pay
@@ -471,7 +464,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={UbImg3} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/ub3.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Logistics
@@ -487,7 +482,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={UbImg4} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/ub4.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Telecom
@@ -521,7 +518,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={RsImg1} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/rs1.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Support Center
@@ -536,7 +535,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={RsImg2} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/rs2.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Nosres for Business
@@ -552,7 +553,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={RsImg3} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/rs3.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Nosres for Career Seekers
@@ -568,7 +571,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={RsImg4} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/rs4.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Nosres for Investors
@@ -583,7 +588,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={RsImg5} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/rs5.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Nosres for Media
@@ -599,7 +606,9 @@ function Header() {
                                             <div
                                                 className="col hover:bg-[#F0F0F0] flex items-center px-4 h-[85px] cursor-pointer">
                                                 <div className="flex items-center gap-3">
-                                                    <Image src={RsImg6} className="w-8" alt="icon"/>
+                                                    <Image width={1000} height={500} src="/assets/images/rs6.svg"
+                                                           className="w-8"
+                                                           alt="icon"/>
                                                     <div className="text">
                                                         <h2 className="text-[#252C32] font-[500] text-[14px]">
                                                             Nosres for Partners

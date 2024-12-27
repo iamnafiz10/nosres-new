@@ -1,8 +1,4 @@
 import React from 'react';
-import buildImg1 from '../../../../../public/assets/images/build1.png';
-import buildImg2 from '../../../../../public/assets/images/build2.png';
-import buildImg3 from '../../../../../public/assets/images/build3.png';
-import buildImg4 from '../../../../../public/assets/images/build4.png';
 import Image from "next/image";
 
 function Build() {
@@ -25,25 +21,29 @@ function Build() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
                         <div data-aos="zoom-in"
                              className="col group box py-4 border-2 border-gray-200 items-center justify-center flex flex-col">
-                            <Image src={buildImg1} className="w-16 group-hover:scale-125" alt="buildImg1"/>
+                            <Image src="/assets/images/build1.png" width={1000} height={500}
+                                   className="w-16 group-hover:scale-125" alt="buildImg1"/>
                             <h3 className="mt-3 text-[14px] text-gray-500">Marketplace</h3>
                         </div>
 
                         <div data-aos="zoom-in"
                              className="col group box py-4 border-2 border-gray-200 items-center justify-center flex flex-col">
-                            <Image src={buildImg2} className="w-16 group-hover:scale-125" alt="buildImg2"/>
+                            <Image src="/assets/images/build2.png" width={1000} height={500}
+                                   className="w-16 group-hover:scale-125" alt="buildImg2"/>
                             <h3 className="mt-3 text-[14px] text-gray-500">Wallet</h3>
                         </div>
 
                         <div data-aos="zoom-in"
                              className="col group box py-4 border-2 border-gray-200 items-center justify-center flex flex-col">
-                            <Image src={buildImg3} className="w-16 group-hover:scale-125" alt="buildImg3"/>
+                            <Image src="/assets/images/build3.png" width={1000} height={500}
+                                   className="w-16 group-hover:scale-125" alt="buildImg3"/>
                             <h3 className="mt-3 text-[14px] text-gray-500">Logistics</h3>
                         </div>
 
                         <div data-aos="zoom-in"
                              className="col group box py-4 border-2 border-gray-200 items-center justify-center flex flex-col">
-                            <Image src={buildImg4} className="w-16 group-hover:scale-125" alt="buildImg4"/>
+                            <Image src="/assets/images/build4.png" width={1000} height={500}
+                                   className="w-16 group-hover:scale-125" alt="buildImg4"/>
                             <h3 className="mt-3 text-[14px] text-gray-500">Telecom</h3>
                         </div>
                     </div>
