@@ -8,6 +8,7 @@ import {CiClock2} from "react-icons/ci";
 import {Modal} from 'flowbite-react';
 import {FaArrowRightLong} from "react-icons/fa6";
 import {RxCross1} from "react-icons/rx";
+import {usePathname} from 'next/navigation';
 
 // Import necessary hooks from React and Next.js
 import {useState, useEffect, useRef} from 'react';
@@ -84,13 +85,13 @@ function Page() {
     };
 
     const [isClient, setIsClient] = useState(false);
-    const router = useRouter();
+    const pathname = usePathname();
     useEffect(() => {
         setIsClient(true); // Set to true after the component mounts (client side)
     }, []);
 
     useEffect(() => {
-        if (isClient && router.pathname === '/search-result') {
+        if (isClient && pathname === '/search-result') {
             // Preserve search text only on search details page
             const storedSearchText = localStorage.getItem('searchText');
             if (storedSearchText) {
@@ -101,7 +102,7 @@ function Page() {
             setSearchText('');
             localStorage.removeItem('searchText');
         }
-    }, [isClient, router.pathname]);
+    }, [isClient, pathname]);
 
     const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter') {
