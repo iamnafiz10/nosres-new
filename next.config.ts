@@ -1,7 +1,13 @@
 import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
-    missingSuspenseWithCSRBailout: false,
+    /* config options here */
 };
+
+module.exports = {
+    experimental: {
+        missingSuspenseWithCSRBailout: false,
+    },
+}
 
 export default nextConfig;
