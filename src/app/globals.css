@@ -18,6 +18,27 @@ body {
     background-color: #4D7FB8; /* Custom background color on hover */
 }
 
+.swiper {
+    padding-bottom: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #4D7FB8 !important;
+}
+
+.slider_wrap {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+    background-image: linear-gradient(
+            to right,
+            rgba(218, 226, 249, 0.72) 0%,
+            rgba(218, 226, 249, 0.25) 100%
+    );
+}
+
 header p {
     font-size: 12px !important;
     color: #828D9E !important;
@@ -373,9 +394,9 @@ textarea {
     border: none;
 }
 
-.swiper {
-    padding-bottom: 40px !important;
-}
+/*.swiper {*/
+/*    padding-bottom: 40px !important;*/
+/*}*/
 
 .swiper-pagination-bullet {
     width: 12px !important;
