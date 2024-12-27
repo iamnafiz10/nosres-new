@@ -1,4 +1,6 @@
 "use client"
+import Header from "./components/header/page";
+import Footer from "./components/footer/page";
 import Hero from "./components/hero/page";
 import Build from "./components/build/page";
 import Patner from "./components/patner/page";
@@ -6,10 +8,13 @@ import Slider from "./components/slider/page";
 import Join from "./components/join/page";
 import Future from "./components/future/page";
 import WorkWith from "./components/workwith/page";
+import {BrowserRouter} from "react-router-dom";
 
 function Page() {
     return (
         <>
+            <BrowserRouter>
+                <Header/>
                 <Hero/>
                 <Build/>
                 <Patner/>
@@ -17,6 +22,8 @@ function Page() {
                 <Join/>
                 <Future/>
                 <WorkWith/>
+                <Footer/>
+            </BrowserRouter>
         </>
     );
 }
