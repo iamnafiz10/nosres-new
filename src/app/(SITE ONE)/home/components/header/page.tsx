@@ -14,7 +14,6 @@ import {usePathname} from 'next/navigation';
 import {useState, useEffect, useRef} from 'react';
 import Link from "next/link";
 import Image from "next/image";
-import {useRouter} from "next/navigation"; // for routing
 function Page() {
     // 👇️ Toggle class on click Show And Hide Menu Bar (Button)
     const [isMenuVisible, setMenuVisible] = useState(false);
