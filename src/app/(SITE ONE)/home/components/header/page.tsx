@@ -1,3 +1,16 @@
+import React from 'react';
+
+function Page() {
+    return (
+        <>
+            <h1>Header</h1>
+        </>
+    );
+}
+
+export default Page;
+
+
 // 'use client';
 // import {AiOutlineClose} from "react-icons/ai";
 // import {HiUserCircle} from "react-icons/hi";

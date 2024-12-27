@@ -1,5 +1,5 @@
 "use client"
-// import Header from "./components/header/page";
+import Header from "./components/header/page";
 import Footer from "./components/footer/page";
 import Hero from "./components/hero/page";
 import Build from "./components/build/page";
@@ -14,7 +14,7 @@ function Page() {
     return (
         <>
             <BrowserRouter>
-                {/*<Header/>*/}
+                <Header/>
                 <Hero/>
                 <Build/>
                 <Patner/>
