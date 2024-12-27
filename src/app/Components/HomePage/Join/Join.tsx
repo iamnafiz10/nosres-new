@@ -4,7 +4,7 @@ import Image from "next/image";
 function Join() {
     return (
         <>
-            <section id="join-section" className="mt-10 bg-white">
+            <section id="join-section" className="bg-white">
                 <div className="container py-10">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
                         <div className="col">
@@ -76,7 +76,8 @@ function Join() {
                         </div>
                         <div className="col">
                             <div className="right_image rounded-lg bg-[#DAE2F9] bg-opacity-[30%] p-10 pr-0">
-                                <Image src="/assets/images/hello.jpg" width={1000} height={500} className="rounded" alt="helloImg"/>
+                                <Image src="/assets/images/hello.jpg" width={1000} height={500} className="rounded"
+                                       alt="helloImg"/>
                             </div>
                         </div>
                     </div>
