@@ -1,5 +1,5 @@
 'use client';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {FaArrowRightLong, FaFacebookF} from "react-icons/fa6";
 import {IoLogoInstagram} from "react-icons/io5";
 import {FaLinkedin} from "react-icons/fa";
@@ -18,8 +18,13 @@ function Page() {
     const handleDismiss = () => {
         setIsVisible(false); // This will hide the acc_wrap div
     };
-    // Check if the current path is "sitea-contact"
-    const shouldDisplay = location.pathname === "/sitea-contact";
+    // Ensure `location` is only accessed in the browser
+    const [shouldDisplay, setShouldDisplay] = useState(false);
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            setShouldDisplay(window.location.pathname === "/sitea-contact");
+        }
+    }, []);
     return (
         <>
             <section id="footer-section" className="bg-[#F4F4F4] mt-10">
