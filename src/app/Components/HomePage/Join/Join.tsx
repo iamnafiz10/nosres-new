@@ -32,7 +32,7 @@ function Join() {
                                             Create a Nosres Account.
                                         </h3>
                                         <h4 className="text-[14px] text-gray-400">
-                                            Before joining Blends, you'll need to create a Nosres Account.
+                                            Before joining Blends, you{`'`}ll need to create a Nosres Account.
                                         </h4>
                                     </li>
 
@@ -46,7 +46,7 @@ function Join() {
                                             Click the button “Try Blends.”
                                         </h3>
                                         <h4 className="text-[14px] text-gray-400">
-                                            You’ll find the “Try Blends” button throughout the
+                                            You{`’`}ll find the “Try Blends” button throughout the
                                             website.
                                         </h4>
                                     </li>

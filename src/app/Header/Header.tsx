@@ -161,8 +161,9 @@ function Header() {
     // Check if the current path is "sitea-contact"
     const shouldDisplay = location.pathname === "/sitea-contact";
 
+    // const [isVisibleTwo, setIsVisibleTwo] = useState(true);
+    const [isVisibleTwo] = useState(true);
 
-    const [isVisibleTwo, setIsVisibleTwo] = useState(true);
     // Check if the current path is "sitea-contact"
     const shouldDisplayTwo = location.pathname === "/sitea-contact";
     return (
