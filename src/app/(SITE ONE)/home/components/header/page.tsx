@@ -14,7 +14,7 @@ import {useState, useEffect, useRef} from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import {useLocation} from "react-router-dom"; // for routing
-function Header() {
+function Page() {
     // 👇️ Toggle class on click Show And Hide Menu Bar (Button)
     const [isMenuVisible, setMenuVisible] = useState(false);
     const handleClick = () => {
@@ -945,4 +945,4 @@ function Header() {
         ;
 }
 
-export default Header;
+export default Page;

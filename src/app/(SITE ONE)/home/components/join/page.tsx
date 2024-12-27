@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-function Join() {
+function Page() {
     return (
         <>
             <section id="join-section" className="bg-white">
@@ -87,4 +87,4 @@ function Join() {
     );
 }
 
-export default Join;
+export default Page;

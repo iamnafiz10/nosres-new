@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-function Patner() {
+function Page() {
     return (
         <>
             <section id="patner-section" className="mt-14">
@@ -82,4 +82,4 @@ function Patner() {
     );
 }
 
-export default Patner;
+export default Page;

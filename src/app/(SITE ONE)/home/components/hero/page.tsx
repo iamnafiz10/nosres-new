@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 
-function Hero() {
+function Page() {
     return (
         <>
             <section id="banner-section" className="bg-cover bg-no-repeat bg-center h-[650px] py-[10rem]"
@@ -30,4 +30,4 @@ function Hero() {
     );
 }
 
-export default Hero;
+export default Page;

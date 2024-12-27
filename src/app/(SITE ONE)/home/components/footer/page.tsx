@@ -1,6 +1,6 @@
 'use client';
 import React, {useState} from 'react';
-import LogoImg from '../../../../public/assets/images/logo.svg';
+import LogoImg from '../../../../../../public/assets/images/logo.svg';
 import {FaArrowRightLong, FaFacebookF} from "react-icons/fa6";
 import {IoLogoInstagram} from "react-icons/io5";
 import {FaLinkedin} from "react-icons/fa";
@@ -10,7 +10,7 @@ import {HiOutlineArrowRightCircle} from "react-icons/hi2";
 import Image from "next/image";
 import Link from "next/link";
 
-function Footer() {
+function Page() {
     const currentYear = new Date().getFullYear();
 
     // const location = useLocation();
@@ -149,7 +149,7 @@ function Footer() {
                             </div>
                         </div>
 
-                        {/* Mobile Footer */}
+                        {/* Mobile footer */}
                         <div className="block lg:hidden">
                             <div className="col pb-8">
                                 <div className="logo">
@@ -354,4 +354,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Page;

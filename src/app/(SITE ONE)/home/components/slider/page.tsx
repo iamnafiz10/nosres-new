@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import {Pagination, Autoplay, Navigation} from 'swiper/modules';
 import {PiArrowCircleLeftLight, PiArrowCircleRightLight} from "react-icons/pi";
 
-function Slider() {
+function Page() {
     return (
         <>
             <section id="slider-section">
@@ -175,7 +175,7 @@ function Slider() {
                                 </div>
                             </div>
                         </SwiperSlide>
-                        {/* Slider Navigation */}
+                        {/* slider Navigation */}
                         <div className="navi_wrap flex gap-4 justify-end">
                             <div
                                 className="button-prev-slide text-primary hover:text-black cursor-pointer">
@@ -192,4 +192,4 @@ function Slider() {
     );
 }
 
-export default Slider;
+export default Page;

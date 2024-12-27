@@ -3,7 +3,7 @@ import Image from "next/image";
 import {HiOutlineArrowRightCircle} from "react-icons/hi2";
 import Link from "next/link";
 
-function Future() {
+function Page() {
     return (
         <>
             <section id="future-section">
@@ -41,4 +41,4 @@ function Future() {
     );
 }
 
-export default Future;
+export default Page;

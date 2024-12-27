@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-function Build() {
+function Page() {
     return (
         <>
             <section id="build-section">
@@ -56,4 +56,4 @@ function Build() {
     );
 }
 
-export default Build;
+export default Page;

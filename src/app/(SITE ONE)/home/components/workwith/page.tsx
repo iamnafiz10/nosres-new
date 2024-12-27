@@ -3,7 +3,7 @@ import {HiOutlineArrowRightCircle} from "react-icons/hi2";
 import Link from "next/link";
 import Image from "next/image";
 
-function WorkWith() {
+function Page() {
     return (
         <>
             <section id="work-with-section">
@@ -109,4 +109,4 @@ function WorkWith() {
     );
 }
 
-export default WorkWith;
+export default Page;
