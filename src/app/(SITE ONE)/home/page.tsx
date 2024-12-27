@@ -1,5 +1,5 @@
 "use client"
-import Header from "./components/header/page";
+// import Header from "./components/header/page";
 import Footer from "./components/footer/page";
 import Hero from "./components/hero/page";
 import Build from "./components/build/page";
