@@ -18,6 +18,24 @@ body {
     background-color: #4D7FB8; /* Custom background color on hover */
 }
 
+/* Section Colors */
+.future-section {
+    background-image: linear-gradient(
+            to right,
+            rgba(206, 216, 226, 0.7) 0%,
+            rgba(229, 228, 225, 0.9) 100%
+    );
+}
+
+{ /* Slider */
+}
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    left: 10% !important;
+    bottom: 15px !important;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
 .swiper {
     padding-bottom: 12px !important;
 }
@@ -27,7 +45,7 @@ body {
 }
 
 .slider_wrap {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 25px;
     padding-left: 50px;
     padding-right: 50px;

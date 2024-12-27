@@ -21,7 +21,7 @@ function Join() {
                                 </p>
                             </div>
                             <div className="pl-[18px]">
-                                <ol className="relative border-l-2 border-primary">
+                                <ol className="relative h-full sm:h-[217px] md:h-[228px] lg:h-[192px] mb-[90px] border-l-2 border-primary">
                                     {/* Timeline Item 1 */}
                                     <li className="mb-10 ml-8">
                                     <span
@@ -52,7 +52,7 @@ function Join() {
                                     </li>
 
                                     {/* Timeline Item 3 */}
-                                    <li className="ml-8 last:border-0">
+                                    <li className="ml-8">
                                     <span
                                         className="absolute -left-[1.4rem] flex items-center justify-center w-10 h-10 text-lg font-medium text-primary border-2 border-primary rounded-full bg-white">
                                       3
@@ -69,7 +69,7 @@ function Join() {
                             </div>
                             <div className="button_area mt-10">
                                 <button type='button'
-                                        className="py-1 px-6 ext-white bg-primary text-[14px] text-white rounded">
+                                        className="py-1 px-6 ext-white bg-primary hover:bg-[#FAFAFA] hover:text-primary border hover:border-[#FAFAFA]  text-[14px] text-white rounded">
                                     Try Blends
                                 </button>
                             </div>

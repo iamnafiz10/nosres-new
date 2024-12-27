@@ -7,6 +7,7 @@ import Patner from "@/app/Components/HomePage/Patner/Patner";
 import WorkWith from "@/app/Components/HomePage/WorkWith/WorkWith";
 import Join from "@/app/Components/HomePage/Join/Join";
 import Slider from "@/app/Components/HomePage/Slider/Slider";
+import Future from "@/app/Components/HomePage/Future/Future";
 import {BrowserRouter} from "react-router-dom";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
                 <Patner/>
                 <Slider/>
                 <Join/>
+                <Future/>
                 <WorkWith/>
                 <Footer/>
             </BrowserRouter>
