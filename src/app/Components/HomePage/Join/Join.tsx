@@ -32,7 +32,7 @@ function Join() {
                                             Create a Nosres Account.
                                         </h3>
                                         <h4 className="text-[14px] text-gray-400">
-                                            Before joining Blends, you{"'"}ll need to create a Nosres Account.
+                                            Before joining Blends, you&apos;ll need to create a Nosres Account.
                                         </h4>
                                     </li>
 
