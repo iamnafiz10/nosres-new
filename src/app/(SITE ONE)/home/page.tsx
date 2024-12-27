@@ -14,7 +14,7 @@ function Page() {
     return (
         <>
             <BrowserRouter>
-                <Header/>
+                {/*<Header/>*/}
                 <Hero/>
                 <Build/>
                 <Patner/>
