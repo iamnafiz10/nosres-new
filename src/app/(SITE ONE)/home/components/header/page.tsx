@@ -14,6 +14,7 @@ import {usePathname} from 'next/navigation';
 import {useState, useEffect, useRef} from 'react';
 import Link from "next/link";
 import Image from "next/image";
+
 function Page() {
     // 👇️ Toggle class on click Show And Hide Menu Bar (Button)
     const [isMenuVisible, setMenuVisible] = useState(false);
@@ -85,21 +86,23 @@ function Page() {
 
     const [isClient, setIsClient] = useState(false);
     const pathname = usePathname();
+    // Make sure to run the code only on the client
     useEffect(() => {
-        setIsClient(true); // Set to true after the component mounts (client side)
+        setIsClient(true);
     }, []);
 
     useEffect(() => {
-        if (isClient && pathname === '/search-result') {
-            // Preserve search text only on search details page
-            const storedSearchText = localStorage.getItem('searchText');
-            if (storedSearchText) {
-                setSearchText(storedSearchText);
+        if (isClient) {
+            if (pathname === '/search-result') {
+                // Only access localStorage on the client-side
+                const storedSearchText = localStorage.getItem('searchText');
+                if (storedSearchText) {
+                    setSearchText(storedSearchText);
+                }
+            } else {
+                setSearchText('');
+                localStorage.removeItem('searchText');
             }
-        } else {
-            // Clear search text on other pages
-            setSearchText('');
-            localStorage.removeItem('searchText');
         }
     }, [isClient, pathname]);
 
@@ -171,6 +174,9 @@ function Page() {
 
     // Check if the current path is "sitea-contact"
     const shouldDisplayTwo = location.pathname === "/sitea-contact";
+    if (!isClient) {
+        return null;  // Return null until the component is mounted on the client-side
+    }
     return (
         <>
             <section id="header-section" className="relative">
