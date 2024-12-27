@@ -1,7 +1,4 @@
 "use client"
-import {BrowserRouter} from "react-router-dom";
-import Header from "./components/header/page";
-import Footer from "./components/footer/page";
 import Hero from "./components/hero/page";
 import Build from "./components/build/page";
 import Patner from "./components/patner/page";
@@ -13,8 +10,6 @@ import WorkWith from "./components/workwith/page";
 function Page() {
     return (
         <>
-            <BrowserRouter>
-                <Header/>
                 <Hero/>
                 <Build/>
                 <Patner/>
@@ -22,8 +17,6 @@ function Page() {
                 <Join/>
                 <Future/>
                 <WorkWith/>
-                <Footer/>
-            </BrowserRouter>
         </>
     );
 }
