@@ -9,20 +9,23 @@ import Join from "@/app/Components/HomePage/Join/Join";
 import Slider from "@/app/Components/HomePage/Slider/Slider";
 import Future from "@/app/Components/HomePage/Future/Future";
 import {BrowserRouter} from "react-router-dom";
+import {Suspense} from "react";
 
 export default function Home() {
     return (
         <>
             <BrowserRouter>
-                <Header/>
-                <Hero/>
-                <Build/>
-                <Patner/>
-                <Slider/>
-                <Join/>
-                <Future/>
-                <WorkWith/>
-                <Footer/>
+                <Suspense>
+                    <Header/>
+                    <Hero/>
+                    <Build/>
+                    <Patner/>
+                    <Slider/>
+                    <Join/>
+                    <Future/>
+                    <WorkWith/>
+                    <Footer/>
+                </Suspense>
             </BrowserRouter>
         </>
     );
