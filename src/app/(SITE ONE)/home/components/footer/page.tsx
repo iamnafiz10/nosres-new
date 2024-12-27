@@ -1,6 +1,5 @@
 'use client';
 import React, {useState} from 'react';
-import LogoImg from '../../../../../../public/assets/images/logo.svg';
 import {FaArrowRightLong, FaFacebookF} from "react-icons/fa6";
 import {IoLogoInstagram} from "react-icons/io5";
 import {FaLinkedin} from "react-icons/fa";
@@ -29,8 +28,10 @@ function Page() {
                         <div className="hidden lg:grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                             <div className="col">
                                 <div className="logo">
-                                    <Link href='/public' className="flex items-center gap-2">
-                                        <Image src={LogoImg} className="h-10 w-7" alt="LogoImg"/>
+                                    <Link href='/' className="flex items-center gap-2">
+                                        <Image width={1000} height={500} src="/assets/images/logo.svg"
+                                               className="h-10 w-7"
+                                               alt="LogoImg"/>
                                         <span className="font-[500] text-xl">nosres</span>
                                     </Link>
                                 </div>
@@ -51,7 +52,7 @@ function Page() {
                                 <div
                                     className="mt-3 flex cursor-pointer items-center gap-1 justify-start text-primary hover:text-[#3A5F8A]">
                                     <HiOutlineArrowRightCircle size={30}/>
-                                    <Link href='/public'
+                                    <Link href='/'
                                           className="text-[14px]">
                                         Subscribe
                                     </Link>
@@ -62,25 +63,25 @@ function Page() {
                                 <h3 className="font-semibold text-gray-600">Nosres Inc.</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>About Nosres</Link>
+                                        <Link href='/'>About Nosres</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Newsroom</Link>
+                                        <Link href='/'>Newsroom</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Careers</Link>
+                                        <Link href='/'>Careers</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Investors</Link>
+                                        <Link href='/'>Investors</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Ethics and Compliance</Link>
+                                        <Link href='/'>Ethics and Compliance</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Brand Resources</Link>
+                                        <Link href='/'>Brand Resources</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Contact Us</Link>
+                                        <Link href='/'>Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -89,16 +90,16 @@ function Page() {
                                 <h3 className="font-semibold text-gray-600">Business Portfolio</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Marketplace</Link>
+                                        <Link href='/'>Marketplace</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Pay</Link>
+                                        <Link href='/'>Pay</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Logistics</Link>
+                                        <Link href='/'>Logistics</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Telecom</Link>
+                                        <Link href='/'>Telecom</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -107,22 +108,22 @@ function Page() {
                                 <h3 className="font-semibold text-gray-600">Nosres Support</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Support Center</Link>
+                                        <Link href='/'>Support Center</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Marketplace Support</Link>
+                                        <Link href='/'>Marketplace Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Pay Support</Link>
+                                        <Link href='/'>Pay Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Logistics Support</Link>
+                                        <Link href='/'>Logistics Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Telecom Support</Link>
+                                        <Link href='/'>Telecom Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Business Support</Link>
+                                        <Link href='/'>Business Support</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -131,19 +132,19 @@ function Page() {
                                 <h3 className="font-semibold text-gray-600">Community</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Events</Link>
+                                        <Link href='/'>Events</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Blog</Link>
+                                        <Link href='/'>Blog</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Forum</Link>
+                                        <Link href='/'>Forum</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Refer a Friend</Link>
+                                        <Link href='/'>Refer a Friend</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Become an Affiliate Partner</Link>
+                                        <Link href='/'>Become an Affiliate Partner</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -153,8 +154,10 @@ function Page() {
                         <div className="block lg:hidden">
                             <div className="col pb-8">
                                 <div className="logo">
-                                    <Link href='/public' className="flex items-center gap-2">
-                                        <Image src={LogoImg} className="h-10 w-7" alt="LogoImg"/>
+                                    <Link href='/' className="flex items-center gap-2">
+                                        <Image width={1000} height={500} src="/assets/images/logo.svg"
+                                               className="h-10 w-7"
+                                               alt="LogoImg"/>
                                         <span className="font-[500] text-xl">nosres</span>
                                     </Link>
                                 </div>
@@ -175,7 +178,7 @@ function Page() {
                                 <div
                                     className="lg:hidden mt-3 flex cursor-pointer items-center gap-1 justify-start text-primary hover:text-[#3A5F8A]">
                                     <HiOutlineArrowRightCircle size={30}/>
-                                    <Link href='/public'
+                                    <Link href='/'
                                           className="text-[14px]">
                                         Subscribe
                                     </Link>
@@ -191,25 +194,25 @@ function Page() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>About Nosres</Link>
+                                        <Link href='/'>About Nosres</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Newsroom</Link>
+                                        <Link href='/'>Newsroom</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Careers</Link>
+                                        <Link href='/'>Careers</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Investors</Link>
+                                        <Link href='/'>Investors</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Ethics and Compliance</Link>
+                                        <Link href='/'>Ethics and Compliance</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Brand Resources</Link>
+                                        <Link href='/'>Brand Resources</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Contact Us</Link>
+                                        <Link href='/'>Contact Us</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -223,16 +226,16 @@ function Page() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Marketplace</Link>
+                                        <Link href='/'>Marketplace</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Pay</Link>
+                                        <Link href='/'>Pay</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Logistics</Link>
+                                        <Link href='/'>Logistics</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Telecom</Link>
+                                        <Link href='/'>Telecom</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -246,22 +249,22 @@ function Page() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Support Center</Link>
+                                        <Link href='/'>Support Center</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Marketplace Support</Link>
+                                        <Link href='/'>Marketplace Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Pay Support</Link>
+                                        <Link href='/'>Pay Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Logistics Support</Link>
+                                        <Link href='/'>Logistics Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Telecom Support</Link>
+                                        <Link href='/'>Telecom Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Business Support</Link>
+                                        <Link href='/'>Business Support</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -275,19 +278,19 @@ function Page() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Events</Link>
+                                        <Link href='/'>Events</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Blog</Link>
+                                        <Link href='/'>Blog</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Forum</Link>
+                                        <Link href='/'>Forum</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Refer a Friend</Link>
+                                        <Link href='/'>Refer a Friend</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Become an Affiliate Partner</Link>
+                                        <Link href='/'>Become an Affiliate Partner</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -299,16 +302,16 @@ function Page() {
                             <div className="left">
                                 <ul className="flex items-center gap-4 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Terms</Link>
+                                        <Link href='/'>Terms</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Privacy</Link>
+                                        <Link href='/'>Privacy</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Policies</Link>
+                                        <Link href='/'>Policies</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/public'>Sitemap</Link>
+                                        <Link href='/'>Sitemap</Link>
                                     </li>
                                 </ul>
                                 <p className="mt-1 text-gray-500 text-[12px]">© {currentYear} Nosres Inc. All rights
