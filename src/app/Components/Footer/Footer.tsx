@@ -1,6 +1,6 @@
 'use client';
 import React, {useState} from 'react';
-import LogoImg from '../../../public/assets/images/logo.svg';
+import LogoImg from '../../../../public/assets/images/logo.svg';
 import {FaArrowRightLong, FaFacebookF} from "react-icons/fa6";
 import {IoLogoInstagram} from "react-icons/io5";
 import {FaLinkedin} from "react-icons/fa";
@@ -29,7 +29,7 @@ function Footer() {
                         <div className="hidden lg:grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                             <div className="col">
                                 <div className="logo">
-                                    <Link href='/' className="flex items-center gap-2">
+                                    <Link href='/public' className="flex items-center gap-2">
                                         <Image src={LogoImg} className="h-10 w-7" alt="LogoImg"/>
                                         <span className="font-[500] text-xl">nosres</span>
                                     </Link>
@@ -51,7 +51,7 @@ function Footer() {
                                 <div
                                     className="mt-3 flex cursor-pointer items-center gap-1 justify-start text-primary hover:text-[#3A5F8A]">
                                     <HiOutlineArrowRightCircle size={30}/>
-                                    <Link href='/'
+                                    <Link href='/public'
                                           className="text-[14px]">
                                         Subscribe
                                     </Link>
@@ -62,25 +62,25 @@ function Footer() {
                                 <h3 className="font-semibold text-gray-600">Nosres Inc.</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>About Nosres</Link>
+                                        <Link href='/public'>About Nosres</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Newsroom</Link>
+                                        <Link href='/public'>Newsroom</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Careers</Link>
+                                        <Link href='/public'>Careers</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Investors</Link>
+                                        <Link href='/public'>Investors</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Ethics and Compliance</Link>
+                                        <Link href='/public'>Ethics and Compliance</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Brand Resources</Link>
+                                        <Link href='/public'>Brand Resources</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Contact Us</Link>
+                                        <Link href='/public'>Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -89,16 +89,16 @@ function Footer() {
                                 <h3 className="font-semibold text-gray-600">Business Portfolio</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Marketplace</Link>
+                                        <Link href='/public'>Marketplace</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Pay</Link>
+                                        <Link href='/public'>Pay</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Logistics</Link>
+                                        <Link href='/public'>Logistics</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Telecom</Link>
+                                        <Link href='/public'>Telecom</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -107,22 +107,22 @@ function Footer() {
                                 <h3 className="font-semibold text-gray-600">Nosres Support</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Support Center</Link>
+                                        <Link href='/public'>Support Center</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Marketplace Support</Link>
+                                        <Link href='/public'>Marketplace Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Pay Support</Link>
+                                        <Link href='/public'>Pay Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Logistics Support</Link>
+                                        <Link href='/public'>Logistics Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Telecom Support</Link>
+                                        <Link href='/public'>Telecom Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Business Support</Link>
+                                        <Link href='/public'>Business Support</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -131,19 +131,19 @@ function Footer() {
                                 <h3 className="font-semibold text-gray-600">Community</h3>
                                 <ul className="mt-3 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Events</Link>
+                                        <Link href='/public'>Events</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Blog</Link>
+                                        <Link href='/public'>Blog</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Forum</Link>
+                                        <Link href='/public'>Forum</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Refer a Friend</Link>
+                                        <Link href='/public'>Refer a Friend</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Become an Affiliate Partner</Link>
+                                        <Link href='/public'>Become an Affiliate Partner</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -153,7 +153,7 @@ function Footer() {
                         <div className="block lg:hidden">
                             <div className="col pb-8">
                                 <div className="logo">
-                                    <Link href='/' className="flex items-center gap-2">
+                                    <Link href='/public' className="flex items-center gap-2">
                                         <Image src={LogoImg} className="h-10 w-7" alt="LogoImg"/>
                                         <span className="font-[500] text-xl">nosres</span>
                                     </Link>
@@ -175,7 +175,7 @@ function Footer() {
                                 <div
                                     className="lg:hidden mt-3 flex cursor-pointer items-center gap-1 justify-start text-primary hover:text-[#3A5F8A]">
                                     <HiOutlineArrowRightCircle size={30}/>
-                                    <Link href='/'
+                                    <Link href='/public'
                                           className="text-[14px]">
                                         Subscribe
                                     </Link>
@@ -191,25 +191,25 @@ function Footer() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>About Nosres</Link>
+                                        <Link href='/public'>About Nosres</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Newsroom</Link>
+                                        <Link href='/public'>Newsroom</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Careers</Link>
+                                        <Link href='/public'>Careers</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Investors</Link>
+                                        <Link href='/public'>Investors</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Ethics and Compliance</Link>
+                                        <Link href='/public'>Ethics and Compliance</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Brand Resources</Link>
+                                        <Link href='/public'>Brand Resources</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Contact Us</Link>
+                                        <Link href='/public'>Contact Us</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -223,16 +223,16 @@ function Footer() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Marketplace</Link>
+                                        <Link href='/public'>Marketplace</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Pay</Link>
+                                        <Link href='/public'>Pay</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Logistics</Link>
+                                        <Link href='/public'>Logistics</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Telecom</Link>
+                                        <Link href='/public'>Telecom</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -246,22 +246,22 @@ function Footer() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Support Center</Link>
+                                        <Link href='/public'>Support Center</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Marketplace Support</Link>
+                                        <Link href='/public'>Marketplace Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Pay Support</Link>
+                                        <Link href='/public'>Pay Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Logistics Support</Link>
+                                        <Link href='/public'>Logistics Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Telecom Support</Link>
+                                        <Link href='/public'>Telecom Support</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Business Support</Link>
+                                        <Link href='/public'>Business Support</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -275,19 +275,19 @@ function Footer() {
                                 </summary>
                                 <ul className="mt-4 space-y-2 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Events</Link>
+                                        <Link href='/public'>Events</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Blog</Link>
+                                        <Link href='/public'>Blog</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Forum</Link>
+                                        <Link href='/public'>Forum</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Refer a Friend</Link>
+                                        <Link href='/public'>Refer a Friend</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Become an Affiliate Partner</Link>
+                                        <Link href='/public'>Become an Affiliate Partner</Link>
                                     </li>
                                 </ul>
                             </details>
@@ -299,16 +299,16 @@ function Footer() {
                             <div className="left">
                                 <ul className="flex items-center gap-4 text-gray-500 text-[12px]">
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Terms</Link>
+                                        <Link href='/public'>Terms</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Privacy</Link>
+                                        <Link href='/public'>Privacy</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Policies</Link>
+                                        <Link href='/public'>Policies</Link>
                                     </li>
                                     <li className="hover:text-primary">
-                                        <Link href='/'>Sitemap</Link>
+                                        <Link href='/public'>Sitemap</Link>
                                     </li>
                                 </ul>
                                 <p className="mt-1 text-gray-500 text-[12px]">© {currentYear} Nosres Inc. All rights

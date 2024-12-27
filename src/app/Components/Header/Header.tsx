@@ -205,7 +205,7 @@ function Header() {
                 >
                     <div className="container flex items-center justify-between">
                         <div className="logo">
-                            <Link href='/' className="flex items-center gap-2">
+                            <Link href='/public' className="flex items-center gap-2">
                                 <Image width={1000} height={500} src="/assets/images/logo.svg" className="h-10 w-7"
                                        alt="LogoImg"/>
                                 <span className="font-[500] text-xl">nosres</span>
@@ -300,7 +300,7 @@ function Header() {
 
                         <div className="nav hidden lg:flex items-center text-[14px] gap-6">
                             <div className="one group">
-                                <Link href='/'
+                                <Link href='/public'
                                       className="group flex items-center justify-between gap-1 text-center text-gray-700 hover:text-primary transition relative">
                                     Who We Are
                                     <IoIosArrowDown className="icon transform group-hover:rotate-180 transition"/>
@@ -414,7 +414,7 @@ function Header() {
                             </div>
 
                             <div className="two group">
-                                <Link href='/'
+                                <Link href='/public'
                                       className="group flex items-center justify-between gap-1 text-center text-gray-700 hover:text-primary transition relative">
                                     Our Business Portfolio
                                     <IoIosArrowDown className="icon transform group-hover:rotate-180 transition"/>
@@ -505,7 +505,7 @@ function Header() {
                             </div>
 
                             <div className="three group">
-                                <Link href='/'
+                                <Link href='/public'
                                       className="group flex items-center justify-between gap-1 text-center text-gray-700 hover:text-primary transition relative">
                                     Resources
                                     <IoIosArrowDown className="icon transform group-hover:rotate-180 transition"/>
@@ -658,7 +658,7 @@ function Header() {
                                                 all Nosres services.
                                             </p>
                                             <div className="flex justify-start text-center">
-                                                <Link href='/'
+                                                <Link href='/public'
                                                       className="mt-2 w-[120px] py-2 flex text-[14px] items-center justify-center gap-2 border rounded text-primary hover:bg-primary hover:text-white hover:border-primary">
                                                     Learn More
                                                 </Link>
@@ -779,27 +779,27 @@ function Header() {
                             </summary>
                             <ul className="mt-4 space-y-4">
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>About Nosres</Link>
+                                    <Link href='/public'>About Nosres</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Newsroom</Link>
+                                    <Link href='/public'>Newsroom</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Careers</Link>
+                                    <Link href='/public'>Careers</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Investors</Link>
+                                    <Link href='/public'>Investors</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Brand Resources</Link>
+                                    <Link href='/public'>Brand Resources</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Contact Us</Link>
+                                    <Link href='/public'>Contact Us</Link>
                                 </li>
                             </ul>
                         </details>
@@ -813,19 +813,19 @@ function Header() {
                             </summary>
                             <ul className="mt-4 space-y-4">
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Marketplace</Link>
+                                    <Link href='/public'>Marketplace</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Pay</Link>
+                                    <Link href='/public'>Pay</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Logistics</Link>
+                                    <Link href='/public'>Logistics</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Telecom</Link>
+                                    <Link href='/public'>Telecom</Link>
                                 </li>
                             </ul>
                         </details>
@@ -839,25 +839,25 @@ function Header() {
                             </summary>
                             <ul className="mt-4 space-y-4">
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Support Center</Link>
+                                    <Link href='/public'>Support Center</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Nosres for Business</Link>
+                                    <Link href='/public'>Nosres for Business</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Nosres for Career Seekers</Link>
+                                    <Link href='/public'>Nosres for Career Seekers</Link>
                                 </li>
 
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Nosres for Investors</Link>
+                                    <Link href='/public'>Nosres for Investors</Link>
                                 </li>
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Nosres for Media</Link>
+                                    <Link href='/public'>Nosres for Media</Link>
                                 </li>
                                 <li className="text-[12px] font-normal pb-2 hover:text-primary border-b">
-                                    <Link href='/'>Nosres for Partners</Link>
+                                    <Link href='/public'>Nosres for Partners</Link>
                                 </li>
                             </ul>
                         </details>
@@ -903,7 +903,7 @@ function Header() {
                                         all Nosres services.
                                     </p>
                                     <div className="flex justify-start text-center">
-                                        <Link href='/'
+                                        <Link href='/public'
                                               className="mt-2 w-[120px] py-2 flex text-[14px] items-center justify-center gap-2 border rounded text-primary hover:bg-primary hover:text-white hover:border-primary">
                                             Learn More
                                         </Link>

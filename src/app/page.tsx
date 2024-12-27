@@ -1,6 +1,6 @@
 "use client"
-import Header from "@/app/Header/Header";
-import Footer from "@/app/Footer/Footer";
+import Header from "@/app/Components/Header/Header";
+import Footer from "@/app/Components/Footer/Footer";
 import Hero from "@/app/Components/HomePage/Hero/Hero";
 import Build from "@/app/Components/HomePage/Build/Build";
 import Patner from "@/app/Components/HomePage/Patner/Patner";
